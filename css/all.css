@@ -47,3 +47,98 @@ table {
 	border-spacing: 0;
 }
 
+/* 第一頁CSS all */
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	color:#221E1F;
+}
+
+.wrapper{
+	width:100%;
+	height: auto;
+}
+
+.bg_home{
+	position: absolute;
+	width: 851.5px;
+	height: 768px;
+	background: url("../images/bg_home.svg") no-repeat;
+	top: 0;
+	right:0;
+	z-index: -100;
+}
+
+.top_wrap,.banner_wp{
+	width: 1085px;
+	margin:24px auto;
+	display: flex;
+	height: auto;
+	justify-content: space-between;
+}
+
+.midden_con{
+	width: 1085px;
+	margin:200px auto 24px;
+}
+
+.logo h1 a{
+	display: block;
+	text-decoration: none;
+}
+
+.fee a{
+	display: block;
+	text-decoration: none;
+	padding:10px 32px;
+	background-color: #FF5D50;
+	color:#fff;
+	font-size: 16px;
+	border-radius: 22px;
+}
+
+.cute_doll img{
+	width: 532px;
+	height: 534px;
+}
+
+.half_title{
+	color:#56C4C5;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.slogan{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.socail_plan{
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.slogan_txt{
+	line-height: 1.6;
+	text-align: left;
+}
+
+.banner_wp{
+	display: flex;
+	align-items: center;
+}
+
+.mark_title{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* for desktop */
+@media(max-width:1085px) {
+	
+}
+
+/* for mobile */
+@media(max-width:575.98px) {
+	
+}
